@@ -4,12 +4,18 @@
 }
 
 #scoreBoard,td {
-  border: 2px solid black;
+  text-align: center;
+  border: 2px outset navy;
+}
+
+ol>li:first-child{
+  font-weight: bold;
 }
 
 th{
   border: 2px solid black;
-  color: red;
+  color: gold;
+  background-color: gray;
 }
 
 li{
@@ -17,7 +23,8 @@ li{
 }
 
 a:hover {
-  background-color: black;
+  background-color: lightblue;
+  color: darkorange;
   text-decoration: none;
 }
 blockquote{
@@ -28,11 +35,13 @@ blockquote{
 #teamRoster>li:first-child{
 background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg") no-repeat;
 background-size: contain;
+list-style-type: none;
 }
 
 #teamRoster>li:last-child{
   background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg") no-repeat;
   background-size: contain;
+  list-style-type: none;
 }
 
 #checkbox-grid >li{
